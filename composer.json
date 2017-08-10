@@ -1,0 +1,22 @@
+{
+    "name": "genertorg/laravel-invoice",
+    "type": "library",
+    "require": {
+        "dompdf/dompdf": "^0.8.0",
+        "illuminate/support": "^5.4",
+        "symfony/http-kernel": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Genert Org",
+            "email": "hi@genert.org",
+            "homepage": "http://genert.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Genert\\Laravel\\Invoice\\": "src/"
+        }
+    }
+}
