@@ -832,8 +832,10 @@
                                                 <tbody>
                                                 <tr>
                                                     <td class="column_cell px tl">
-                                                        <p class="mb_xxs"><strong>{{ trans('invoice::receipt.total_sum') }}:&nbsp;{{ $payment_total }}</strong></p>
-                                                        @if (isset($vatAmount) && (isset($vatNumber) && $vatNumber === null))
+                                                        @if (isset($productsTotalPayment))
+                                                            <p class="mb_xxs"><strong>{{ trans('invoice::receipt.total_sum') }}:&nbsp;{{ $productsTotalPayment }}</strong></p>
+                                                        @endif
+                                                        @if (isset($vatAmount))
                                                             <p class="mb_xxs"><strong>{{ trans('invoice::receipt.vat') }}: {{ $vatAmount }}</strong></p>
                                                         @endif
                                                         <table class="hr_rl" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">

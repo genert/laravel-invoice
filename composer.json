@@ -1,5 +1,5 @@
 {
-    "name": "genertorg/laravel-invoice",
+    "name": "genert/laravel-invoice",
     "type": "library",
     "require": {
         "dompdf/dompdf": "^0.8.0",

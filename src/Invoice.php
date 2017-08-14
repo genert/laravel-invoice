@@ -64,8 +64,8 @@ final class Invoice
     {
         // Table causes zero-division bug
         // See https://github.com/dompdf/dompdf/issues/1057
-        // Until this is fixed, we will disable error reporting for PDF
-        // generation and downloading.
+        // Until this is fixed, we will report all errors except E_NOTICE and E_WARNING
+        // for PDF generation and downloading.
         error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
 
         return new Response($this->pdf($data), 200, [
