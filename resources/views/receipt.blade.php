@@ -832,8 +832,8 @@
                                                 <tbody>
                                                 <tr>
                                                     <td class="column_cell px tl">
-                                                        @if (isset($productsTotalPayment))
-                                                            <p class="mb_xxs"><strong>{{ trans('invoice::receipt.total_sum') }}:&nbsp;{{ $productsTotalPayment }}</strong></p>
+                                                        @if (isset($productsTotal))
+                                                            <p class="mb_xxs"><strong>{{ trans('invoice::receipt.total_sum') }}:&nbsp;{{ $productsTotal }}</strong></p>
                                                         @endif
                                                         @if (isset($vatAmount))
                                                             <p class="mb_xxs"><strong>{{ trans('invoice::receipt.vat') }}: {{ $vatAmount }}</strong></p>
