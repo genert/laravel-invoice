@@ -18,5 +18,15 @@
         "psr-4": {
             "Genert\\Laravel\\Invoice\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Genert\\Laravel\\Invoice\\InvoiceServiceProvider"
+            ],
+            "aliases": {
+                "Invoice": "Genert\\Laravel\\Invoice\\Facades\\Invoice"
+            }
+        }
+    },
 }
