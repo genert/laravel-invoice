@@ -1,5 +1,6 @@
 {
     "name": "genert/laravel-invoice",
+    "description": "Laravel package for downloading invoice with included default receipt template",
     "type": "library",
     "require": {
         "dompdf/dompdf": "^0.8.0",
@@ -28,5 +29,5 @@
                 "Invoice": "Genert\\Laravel\\Invoice\\Facades\\Invoice"
             }
         }
-    },
+    }
 }
