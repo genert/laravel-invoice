@@ -3,15 +3,15 @@
     "description": "Laravel package for downloading invoice with included default receipt template",
     "type": "library",
     "require": {
-        "dompdf/dompdf": "^0.8.0",
-        "illuminate/support": "^5.7",
-        "symfony/http-kernel": "^4.1"
+        "dompdf/dompdf": "^0.8.3",
+        "illuminate/support": "^6.0",
+        "symfony/http-kernel": "^4.3.5"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Genert Org",
-            "email": "hi@genert.org",
+            "email": "contact@genert.org",
             "homepage": "http://genert.org"
         }
     ],
